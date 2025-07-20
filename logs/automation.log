@@ -1,0 +1,54 @@
+00:32:12.436 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+00:32:12.439 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+00:32:12.446 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+00:32:12.446 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+00:32:12.456 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+00:32:12.456 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+00:32:12.462 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+00:32:12.462 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+00:32:12.473 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+00:32:12.473 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+00:32:12.479 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+00:32:12.479 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+00:32:12.486 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+00:32:12.487 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+00:32:12.494 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+00:32:12.494 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+00:32:12.501 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+00:32:12.501 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+00:32:12.507 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+00:32:12.508 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+00:32:12.514 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+00:32:12.514 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+00:32:13.873 [main] INFO  testCases.TC_ContactUs -  Starting Tc_contactus 
+00:32:14.087 [main] INFO  testCases.TC_ContactUs - Home Page Displayed 
+00:32:14.410 [main] INFO  testCases.TC_ContactUs - Clicked on ContactUs
+00:32:14.512 [main] INFO  testCases.TC_ContactUs - Provided Name 
+00:32:14.636 [main] INFO  testCases.TC_ContactUs - Provided Email 
+00:32:14.741 [main] INFO  testCases.TC_ContactUs - Enter quert text
+00:32:15.186 [main] ERROR testCases.TC_ContactUs - Query sent sucessfully to admin !!
+00:32:15.186 [main] INFO  testCases.TC_ContactUs -  TC_ContactUs Finished  
+00:32:16.567 [main] INFO  testCases.TC_ContactUs -  Starting Tc_contactus 
+00:32:16.795 [main] INFO  testCases.TC_ContactUs - Home Page Displayed 
+00:32:17.084 [main] INFO  testCases.TC_ContactUs - Clicked on ContactUs
+00:32:17.173 [main] INFO  testCases.TC_ContactUs - Provided Name 
+00:32:17.260 [main] INFO  testCases.TC_ContactUs - Provided Email 
+00:32:17.354 [main] INFO  testCases.TC_ContactUs - Enter quert text
+00:32:17.802 [main] ERROR testCases.TC_ContactUs - Query sent sucessfully to admin !!
+00:32:17.802 [main] INFO  testCases.TC_ContactUs -  TC_ContactUs Finished  
+00:32:19.164 [main] INFO  testCases.TC_ContactUs -  Starting Tc_contactus 
+00:32:19.379 [main] INFO  testCases.TC_ContactUs - Home Page Displayed 
+00:32:19.725 [main] INFO  testCases.TC_ContactUs - Clicked on ContactUs
+00:32:19.845 [main] INFO  testCases.TC_ContactUs - Provided Name 
+00:32:19.955 [main] INFO  testCases.TC_ContactUs - Provided Email 
+00:32:20.063 [main] INFO  testCases.TC_ContactUs - Enter quert text
+00:32:20.467 [main] ERROR testCases.TC_ContactUs - Query sent sucessfully to admin !!
+00:32:20.467 [main] INFO  testCases.TC_ContactUs -  TC_ContactUs Finished  
+00:32:26.655 [main] INFO  testCases.TC_ContactUs -  Starting Tc_contactus 
+00:32:26.973 [main] INFO  testCases.TC_ContactUs - Home Page Displayed 
+00:32:27.306 [main] INFO  testCases.TC_ContactUs - Clicked on ContactUs
+00:32:27.410 [main] INFO  testCases.TC_ContactUs - Provided Name 
+00:32:27.529 [main] INFO  testCases.TC_ContactUs - Provided Email 
+00:32:27.636 [main] INFO  testCases.TC_ContactUs - Enter quert text
+00:32:28.118 [main] ERROR testCases.TC_ContactUs - Query sent sucessfully to admin !!
+00:32:28.118 [main] INFO  testCases.TC_ContactUs -  TC_ContactUs Finished  

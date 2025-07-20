@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TutorialNinja" Thread-count="2" parallel="tests">
+
+
+    <test name="chrometest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TC_001Registration"/>
+        </classes>
+    </test>>
+
+
+    <test name="firefoxtest">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testCases.TC_001Registration"/>
+        </classes>
+    </test>>
+
+
+
+</suite>
