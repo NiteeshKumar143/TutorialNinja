@@ -1,263 +1,66 @@
-01:31:27.921 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-01:31:27.927 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-01:31:27.951 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-01:31:27.952 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-01:31:27.965 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-01:31:27.966 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-01:31:27.996 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-01:31:27.999 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-01:31:28.022 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-01:31:28.022 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-01:31:28.039 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-01:31:28.039 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-01:31:29.910 [main] INFO  testCases.TC_ContactUs -  Starting Tc_contactus 
-01:31:30.194 [main] INFO  testCases.TC_ContactUs - Home Page Displayed 
-01:31:30.609 [main] INFO  testCases.TC_ContactUs - Clicked on ContactUs
-01:31:30.828 [main] INFO  testCases.TC_ContactUs - Provided Name 
-01:31:31.032 [main] INFO  testCases.TC_ContactUs - Provided Email 
-01:31:31.278 [main] INFO  testCases.TC_ContactUs - Enter quert text
-01:31:31.835 [main] ERROR testCases.TC_ContactUs - Query sent sucessfully to admin !!
-01:31:31.835 [main] INFO  testCases.TC_ContactUs -  TC_ContactUs Finished  
-01:31:34.000 [main] INFO  testCases.TC_ContactUs -  Starting Tc_contactus 
-01:31:34.242 [main] INFO  testCases.TC_ContactUs - Home Page Displayed 
-01:31:34.591 [main] INFO  testCases.TC_ContactUs - Clicked on ContactUs
-01:31:34.781 [main] INFO  testCases.TC_ContactUs - Provided Name 
-01:31:34.966 [main] INFO  testCases.TC_ContactUs - Provided Email 
-01:31:35.127 [main] INFO  testCases.TC_ContactUs - Enter quert text
-01:31:35.688 [main] ERROR testCases.TC_ContactUs - Query sent sucessfully to admin !!
-01:31:35.688 [main] INFO  testCases.TC_ContactUs -  TC_ContactUs Finished  
-01:31:40.738 [main] INFO  testCases.TC_ContactUs -  Starting Tc_contactus 
-01:31:40.988 [main] INFO  testCases.TC_ContactUs - Home Page Displayed 
-01:31:41.378 [main] INFO  testCases.TC_ContactUs - Clicked on ContactUs
-01:31:41.562 [main] INFO  testCases.TC_ContactUs - Provided Name 
-01:31:41.765 [main] INFO  testCases.TC_ContactUs - Provided Email 
-01:31:41.986 [main] INFO  testCases.TC_ContactUs - Enter quert text
-01:31:42.627 [main] ERROR testCases.TC_ContactUs - Query sent sucessfully to admin !!
-01:31:42.627 [main] INFO  testCases.TC_ContactUs -  TC_ContactUs Finished  
-01:31:44.872 [main] INFO  testCases.TC_ContactUs -  Starting Tc_contactus 
-01:31:45.150 [main] INFO  testCases.TC_ContactUs - Home Page Displayed 
-01:31:45.607 [main] INFO  testCases.TC_ContactUs - Clicked on ContactUs
-01:31:45.770 [main] INFO  testCases.TC_ContactUs - Provided Name 
-01:31:45.949 [main] INFO  testCases.TC_ContactUs - Provided Email 
-01:31:46.132 [main] INFO  testCases.TC_ContactUs - Enter quert text
-01:31:46.669 [main] ERROR testCases.TC_ContactUs - Query sent sucessfully to admin !!
-01:31:46.669 [main] INFO  testCases.TC_ContactUs -  TC_ContactUs Finished  
-02:08:20.868 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:20.872 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:20.982 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
-02:08:20.984 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-02:08:20.985 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-02:08:20.986 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-02:08:20.986 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-02:08:20.987 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-02:08:20.997 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-02:08:20.998 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-02:08:21.006 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-02:08:21.007 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
-02:08:21.008 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-02:08:21.009 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-02:08:21.010 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-02:08:21.010 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
-02:08:21.111 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
-02:08:21.112 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
-02:08:21.156 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
-02:08:21.165 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
-02:08:21.168 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctnumfmtsb58btype
-02:08:21.169 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctnumfmt3870type
-02:08:21.171 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
-02:08:21.175 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
-02:08:21.176 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
-02:08:21.178 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
-02:08:21.182 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
-02:08:21.183 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
-02:08:21.184 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
-02:08:21.186 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
-02:08:21.188 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
-02:08:21.189 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
-02:08:21.191 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
-02:08:21.193 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
-02:08:21.197 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
-02:08:21.199 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
-02:08:21.213 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
-02:08:21.217 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
-02:08:21.219 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
-02:08:21.221 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
-02:08:21.222 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
-02:08:21.223 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
-02:08:21.227 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
-02:08:21.232 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
-02:08:21.235 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
-02:08:21.247 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
-02:08:21.249 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
-02:08:21.252 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
-02:08:21.256 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
-02:08:21.267 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
-02:08:21.300 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.301 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.336 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.338 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.383 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.385 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.431 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.433 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.478 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.480 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.520 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.521 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.569 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.570 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.607 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.609 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.647 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.648 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.683 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.684 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.717 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.718 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.745 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.746 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.775 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.776 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.803 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.805 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.835 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.836 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.865 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.866 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.895 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.896 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.927 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.928 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.953 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.954 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:21.981 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:21.982 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:22.007 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:22.008 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:22.034 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:22.035 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:22.056 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:22.057 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:22.079 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:22.080 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:22.099 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:08:22.100 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:08:23.922 [main] INFO  testCases.TC_003_LoginDDT -  Starting TC_003_LoginDDT 
-02:08:24.207 [main] INFO  testCases.TC_003_LoginDDT - Home Page Displayed 
-02:08:24.425 [main] INFO  testCases.TC_003_LoginDDT - Clicked on My Account 
-02:08:24.792 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login 
-02:08:24.974 [main] INFO  testCases.TC_003_LoginDDT - Provided Email 
-02:08:25.142 [main] INFO  testCases.TC_003_LoginDDT - Provided Password 
-02:08:25.313 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
-02:08:35.937 [main] ERROR testCases.TC_003_LoginDDT - Login Failed 
-02:08:38.025 [main] INFO  testCases.TC_003_LoginDDT -  Starting TC_003_LoginDDT 
-02:08:38.297 [main] INFO  testCases.TC_003_LoginDDT - Home Page Displayed 
-02:08:38.486 [main] INFO  testCases.TC_003_LoginDDT - Clicked on My Account 
-02:08:38.849 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login 
-02:08:39.026 [main] INFO  testCases.TC_003_LoginDDT - Provided Email 
-02:08:39.184 [main] INFO  testCases.TC_003_LoginDDT - Provided Password 
-02:08:39.837 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
-02:08:49.896 [main] ERROR testCases.TC_003_LoginDDT - Login Failed 
-02:08:49.896 [main] INFO  testCases.TC_003_LoginDDT -  Finished TC_003_LoginDDT 
-02:08:51.945 [main] INFO  testCases.TC_003_LoginDDT -  Starting TC_003_LoginDDT 
-02:08:52.246 [main] INFO  testCases.TC_003_LoginDDT - Home Page Displayed 
-02:08:52.440 [main] INFO  testCases.TC_003_LoginDDT - Clicked on My Account 
-02:08:52.820 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login 
-02:08:52.986 [main] INFO  testCases.TC_003_LoginDDT - Provided Email 
-02:08:53.121 [main] INFO  testCases.TC_003_LoginDDT - Provided Password 
-02:08:53.275 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
-02:09:04.038 [main] ERROR testCases.TC_003_LoginDDT - Login Failed 
-02:09:04.038 [main] INFO  testCases.TC_003_LoginDDT -  Finished TC_003_LoginDDT 
-02:09:06.615 [main] INFO  testCases.TC_003_LoginDDT -  Starting TC_003_LoginDDT 
-02:09:06.908 [main] INFO  testCases.TC_003_LoginDDT - Home Page Displayed 
-02:09:07.074 [main] INFO  testCases.TC_003_LoginDDT - Clicked on My Account 
-02:09:07.457 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login 
-02:09:07.654 [main] INFO  testCases.TC_003_LoginDDT - Provided Email 
-02:09:07.797 [main] INFO  testCases.TC_003_LoginDDT - Provided Password 
-02:09:08.382 [main] INFO  testCases.TC_003_LoginDDT - Clicked on Login
-02:09:18.409 [main] ERROR testCases.TC_003_LoginDDT - Login Failed 
-02:09:18.409 [main] INFO  testCases.TC_003_LoginDDT -  Finished TC_003_LoginDDT 
-02:09:20.794 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:20.796 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:20.832 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:20.835 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:20.861 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:20.863 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:20.885 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:20.887 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:20.906 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:20.907 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:20.929 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:20.930 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:20.955 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:20.956 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:20.977 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:20.979 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.007 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.009 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.032 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.034 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.058 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.059 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.079 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.080 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.099 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.101 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.121 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.122 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.140 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.141 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.160 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.161 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.178 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.179 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.196 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.197 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.214 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.215 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.231 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.231 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.239 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.239 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.248 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.248 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.258 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.268 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.284 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.285 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.300 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.300 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:21.315 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-02:09:21.316 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-02:09:22.904 [main] INFO  testCases.TC_ContactUs -  Starting Tc_contactus 
-02:09:23.186 [main] INFO  testCases.TC_ContactUs - Home Page Displayed 
-02:09:23.610 [main] INFO  testCases.TC_ContactUs - Clicked on ContactUs
-02:09:23.770 [main] INFO  testCases.TC_ContactUs - Provided Name 
-02:09:23.948 [main] INFO  testCases.TC_ContactUs - Provided Email 
-02:09:24.122 [main] INFO  testCases.TC_ContactUs - Enter quert text
-02:09:24.677 [main] ERROR testCases.TC_ContactUs - Query sent sucessfully to admin !!
-02:09:24.677 [main] INFO  testCases.TC_ContactUs -  TC_ContactUs Finished  
-02:09:26.734 [main] INFO  testCases.TC_ContactUs -  Starting Tc_contactus 
-02:09:26.983 [main] INFO  testCases.TC_ContactUs - Home Page Displayed 
-02:09:27.369 [main] INFO  testCases.TC_ContactUs - Clicked on ContactUs
-02:09:27.526 [main] INFO  testCases.TC_ContactUs - Provided Name 
-02:09:27.709 [main] INFO  testCases.TC_ContactUs - Provided Email 
-02:09:27.908 [main] INFO  testCases.TC_ContactUs - Enter quert text
-02:09:28.479 [main] ERROR testCases.TC_ContactUs - Query sent sucessfully to admin !!
-02:09:28.479 [main] INFO  testCases.TC_ContactUs -  TC_ContactUs Finished  
-02:09:30.343 [main] INFO  testCases.TC_ContactUs -  Starting Tc_contactus 
-02:09:30.639 [main] INFO  testCases.TC_ContactUs - Home Page Displayed 
-02:09:31.099 [main] INFO  testCases.TC_ContactUs - Clicked on ContactUs
-02:09:31.261 [main] INFO  testCases.TC_ContactUs - Provided Name 
-02:09:31.434 [main] INFO  testCases.TC_ContactUs - Provided Email 
-02:09:31.639 [main] INFO  testCases.TC_ContactUs - Enter quert text
-02:09:32.273 [main] ERROR testCases.TC_ContactUs - Query sent sucessfully to admin !!
-02:09:32.273 [main] INFO  testCases.TC_ContactUs -  TC_ContactUs Finished  
-02:09:34.139 [main] INFO  testCases.TC_ContactUs -  Starting Tc_contactus 
-02:09:34.439 [main] INFO  testCases.TC_ContactUs - Home Page Displayed 
-02:09:34.864 [main] INFO  testCases.TC_ContactUs - Clicked on ContactUs
-02:09:35.011 [main] INFO  testCases.TC_ContactUs - Provided Name 
-02:09:35.198 [main] INFO  testCases.TC_ContactUs - Provided Email 
-02:09:35.367 [main] INFO  testCases.TC_ContactUs - Enter quert text
-02:09:35.882 [main] ERROR testCases.TC_ContactUs - Query sent sucessfully to admin !!
-02:09:35.882 [main] INFO  testCases.TC_ContactUs -  TC_ContactUs Finished  
+22:57:57.442 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT -  Starting TC_003_LoginDDT 
+22:57:57.472 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Home Page Displayed 
+22:57:57.702 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Home Page Displayed 
+22:57:57.823 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Clicked on My Account 
+22:57:57.858 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Clicked on ContactUs
+22:57:57.968 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Provided Name 
+22:57:58.063 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Provided Email 
+22:57:58.137 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Clicked on Login 
+22:57:58.187 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Enter quert text
+22:57:58.281 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Provided Email 
+22:57:58.384 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Provided Password 
+22:57:58.691 [TestNG-test-Login-2] ERROR testCases.TC_ContactUs - Query sent sucessfully to admin !!
+22:57:58.693 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs -  TC_ContactUs Finished  
+22:57:58.986 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+22:58:00.157 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs -  Starting Tc_contactus 
+22:58:00.365 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Home Page Displayed 
+22:58:00.669 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Clicked on ContactUs
+22:58:00.809 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Provided Name 
+22:58:00.922 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Provided Email 
+22:58:01.032 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Enter quert text
+22:58:01.487 [TestNG-test-Login-2] ERROR testCases.TC_ContactUs - Query sent sucessfully to admin !!
+22:58:01.487 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs -  TC_ContactUs Finished  
+22:58:02.907 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs -  Starting Tc_contactus 
+22:58:03.320 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Home Page Displayed 
+22:58:03.661 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Clicked on ContactUs
+22:58:03.782 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Provided Name 
+22:58:03.892 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Provided Email 
+22:58:04.011 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Enter quert text
+22:58:04.476 [TestNG-test-Login-2] ERROR testCases.TC_ContactUs - Query sent sucessfully to admin !!
+22:58:04.476 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs -  TC_ContactUs Finished  
+22:58:09.065 [TestNG-test-Login-1] ERROR testCases.TC_003_LoginDDT - Login Failed 
+22:58:10.561 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT -  Starting TC_003_LoginDDT 
+22:58:10.781 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Home Page Displayed 
+22:58:10.880 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Clicked on My Account 
+22:58:11.145 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Clicked on Login 
+22:58:11.296 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Provided Email 
+22:58:11.387 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Provided Password 
+22:58:12.248 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs -  Starting Tc_contactus 
+22:58:12.277 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+22:58:12.478 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Home Page Displayed 
+22:58:12.803 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Clicked on ContactUs
+22:58:12.898 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Provided Name 
+22:58:13.000 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Provided Email 
+22:58:13.096 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs - Enter quert text
+22:58:13.562 [TestNG-test-Login-2] ERROR testCases.TC_ContactUs - Query sent sucessfully to admin !!
+22:58:13.562 [TestNG-test-Login-2] INFO  testCases.TC_ContactUs -  TC_ContactUs Finished  
+22:58:22.310 [TestNG-test-Login-1] ERROR testCases.TC_003_LoginDDT - Login Failed 
+22:58:22.310 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT -  Finished TC_003_LoginDDT 
+22:58:23.794 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT -  Starting TC_003_LoginDDT 
+22:58:24.017 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Home Page Displayed 
+22:58:24.114 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Clicked on My Account 
+22:58:24.395 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Clicked on Login 
+22:58:24.505 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Provided Email 
+22:58:24.597 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Provided Password 
+22:58:25.401 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+22:58:35.466 [TestNG-test-Login-1] ERROR testCases.TC_003_LoginDDT - Login Failed 
+22:58:35.466 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT -  Finished TC_003_LoginDDT 
+22:58:36.805 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT -  Starting TC_003_LoginDDT 
+22:58:37.025 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Home Page Displayed 
+22:58:37.150 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Clicked on My Account 
+22:58:37.443 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Clicked on Login 
+22:58:37.566 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Provided Email 
+22:58:37.647 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Provided Password 
+22:58:38.059 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT - Clicked on Login
+22:58:48.091 [TestNG-test-Login-1] ERROR testCases.TC_003_LoginDDT - Login Failed 
+22:58:48.091 [TestNG-test-Login-1] INFO  testCases.TC_003_LoginDDT -  Finished TC_003_LoginDDT 
