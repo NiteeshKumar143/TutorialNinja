@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Tutorial Ninja">
+<suite name="Tutorial Ninja" parallel="classes" thread-count="3">
 
     <listeners>
     
