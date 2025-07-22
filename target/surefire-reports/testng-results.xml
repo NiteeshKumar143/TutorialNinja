@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-14T23:14:53 IST" name="OenCart test suite" finished-at="2025-07-14T23:14:56 IST" duration-ms="3218">
+  <suite started-at="2025-07-21T02:08:17 IST" name="Tutorial Ninja" finished-at="2025-07-21T02:09:35 IST" duration-ms="78673">
     <groups>
     </groups>
-    <test started-at="2025-07-14T23:14:53 IST" name="Opencart test" finished-at="2025-07-14T23:14:56 IST" duration-ms="3218">
-      <class name="testCases.TC_003_LoginDDT">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@5fdcaa40]" started-at="2025-07-14T23:14:53 IST" name="setUp" finished-at="2025-07-14T23:14:55 IST" duration-ms="2400" status="PASS">
+    <test started-at="2025-07-21T02:08:17 IST" name="Login" finished-at="2025-07-21T02:09:35 IST" duration-ms="78673">
+      <class name="testCases.TC_ContactUs">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_ContactUs@158da8e]" started-at="2025-07-21T02:09:18 IST" name="setUp" finished-at="2025-07-21T02:09:20 IST" duration-ms="2264" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,20 +18,206 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@5fdcaa40]" started-at="2025-07-14T23:14:56 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-14T23:14:56 IST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3]]>
-            </message>
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_ContactUs@158da8e]" started-at="2025-07-21T02:09:21 IST" name="setUp" finished-at="2025-07-21T02:09:22 IST" duration-ms="1567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Tc_contactus(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ContactUs@158da8e]" started-at="2025-07-21T02:09:22 IST" name="Tc_contactus" data-provider="ContactUs" finished-at="2025-07-21T02:09:24 IST" duration-ms="1775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Niteesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[n.k.gangwar581993@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[niteesh is entering some data in query box user 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_contactus -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_ContactUs@158da8e]" started-at="2025-07-21T02:09:24 IST" name="Teardown" finished-at="2025-07-21T02:09:24 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_ContactUs@158da8e]" started-at="2025-07-21T02:09:24 IST" name="setUp" finished-at="2025-07-21T02:09:26 IST" duration-ms="1972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Tc_contactus(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ContactUs@158da8e]" started-at="2025-07-21T02:09:26 IST" name="Tc_contactus" data-provider="ContactUs" finished-at="2025-07-21T02:09:28 IST" duration-ms="1746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pawan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pavanoltraining@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pawan is entering some data in query box user 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_contactus -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_ContactUs@158da8e]" started-at="2025-07-21T02:09:28 IST" name="Teardown" finished-at="2025-07-21T02:09:28 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_ContactUs@158da8e]" started-at="2025-07-21T02:09:28 IST" name="setUp" finished-at="2025-07-21T02:09:30 IST" duration-ms="1774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Tc_contactus(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ContactUs@158da8e]" started-at="2025-07-21T02:09:30 IST" name="Tc_contactus" data-provider="ContactUs" finished-at="2025-07-21T02:09:32 IST" duration-ms="1930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rohit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rohit11@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rohit is entering some data in query box user 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_contactus -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_ContactUs@158da8e]" started-at="2025-07-21T02:09:32 IST" name="Teardown" finished-at="2025-07-21T02:09:32 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_ContactUs@158da8e]" started-at="2025-07-21T02:09:32 IST" name="setUp" finished-at="2025-07-21T02:09:34 IST" duration-ms="1781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Tc_contactus(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ContactUs@158da8e]" started-at="2025-07-21T02:09:34 IST" name="Tc_contactus" data-provider="ContactUs" finished-at="2025-07-21T02:09:35 IST" duration-ms="1744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kamal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kamal12@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kamal is entering some data in query box user 4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_contactus -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_ContactUs@158da8e]" started-at="2025-07-21T02:09:35 IST" name="Teardown" finished-at="2025-07-21T02:09:35 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testCases.TC_ContactUs -->
+      <class name="testCases.TC_003_LoginDDT">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@32eff876]" started-at="2025-07-21T02:08:17 IST" name="setUp" finished-at="2025-07-21T02:08:20 IST" duration-ms="3219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@32eff876]" started-at="2025-07-21T02:08:22 IST" name="setUp" finished-at="2025-07-21T02:08:23 IST" duration-ms="1796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@32eff876]" started-at="2025-07-21T02:08:23 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-21T02:08:35 IST" duration-ms="12020" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nk.gangwar581993@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nikk@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:58)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at testCases.TC_003_LoginDDT.test_LoginDDT(TC_003_LoginDDT.java:64)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -55,25 +241,125 @@ at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-at testCases.TC_003_LoginDDT.getData(TC_003_LoginDDT.java:115)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
-... 29 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_003_LoginDDT@5fdcaa40]" started-at="2025-07-14T23:14:56 IST" name="Teardown" finished-at="2025-07-14T23:14:56 IST" duration-ms="81" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_003_LoginDDT@32eff876]" started-at="2025-07-21T02:08:35 IST" name="Teardown" finished-at="2025-07-21T02:08:36 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@32eff876]" started-at="2025-07-21T02:08:36 IST" name="setUp" finished-at="2025-07-21T02:08:38 IST" duration-ms="1969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@32eff876]" started-at="2025-07-21T02:08:38 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-21T02:08:49 IST" duration-ms="11871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavanoltraining@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_003_LoginDDT@32eff876]" started-at="2025-07-21T02:08:49 IST" name="Teardown" finished-at="2025-07-21T02:08:49 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@32eff876]" started-at="2025-07-21T02:08:49 IST" name="setUp" finished-at="2025-07-21T02:08:51 IST" duration-ms="1951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@32eff876]" started-at="2025-07-21T02:08:51 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-21T02:09:04 IST" duration-ms="12094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_003_LoginDDT@32eff876]" started-at="2025-07-21T02:09:04 IST" name="Teardown" finished-at="2025-07-21T02:09:04 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@32eff876]" started-at="2025-07-21T02:09:04 IST" name="setUp" finished-at="2025-07-21T02:09:06 IST" duration-ms="2478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@32eff876]" started-at="2025-07-21T02:09:06 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-21T02:09:18 IST" duration-ms="11796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_003_LoginDDT@32eff876]" started-at="2025-07-21T02:09:18 IST" name="Teardown" finished-at="2025-07-21T02:09:18 IST" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- testCases.TC_003_LoginDDT -->
-    </test> <!-- Opencart test -->
-  </suite> <!-- OenCart test suite -->
+    </test> <!-- Login -->
+  </suite> <!-- Tutorial Ninja -->
 </testng-results>

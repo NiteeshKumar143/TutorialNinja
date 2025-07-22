@@ -1,16 +1,26 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>OpenCart</groupId>
   <artifactId>TutorialNinja</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0</version>
  
 
 
+  <properties>
+        <maven.compiler.source>23</maven.compiler.source>
+        <maven.compiler.target>23</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
 
-    <build>
+
+
+<build>
     <pluginManagement>
         <plugins>
-        <plugin>
+             <plugin>
      				 <groupId>org.apache.maven.plugins</groupId>
      				 <artifactId>maven-compiler-plugin</artifactId>
      				 <version>3.11.0</version> <!-- Or newer -->
@@ -18,7 +28,7 @@
       				     <source>1.8</source>     <!-- Java 8 -->
        					 <target>1.8</target>
      				 </configuration>
-       </plugin>
+              </plugin>
          
      
         
@@ -40,8 +50,8 @@
             
             
         </plugins>
-        </pluginManagement>
-    </build>
+   </pluginManagement>
+</build>
 
 <dependencies>
 
@@ -135,3 +145,5 @@
 
 
 </project>
+
+
