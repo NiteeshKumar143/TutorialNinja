@@ -9,10 +9,7 @@ import testBase.BaseClass;
 import org.testng.AssertJUnit;
 import java.io.IOException;
 
-import org.openqa.selenium.By;
-import org.testng.Assert;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+
 
 public class TC_001Registration extends BaseClass
 {

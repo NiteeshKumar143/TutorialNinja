@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-23T13:06:42 IST" name="Tutorial Ninja" finished-at="2025-07-23T13:07:40 IST" duration-ms="58137">
+  <suite started-at="2025-07-23T13:15:04 IST" name="Tutorial Ninja" finished-at="2025-07-23T13:16:01 IST" duration-ms="57570">
     <groups>
     </groups>
-    <test started-at="2025-07-23T13:06:42 IST" name="Login" finished-at="2025-07-23T13:07:40 IST" duration-ms="58137">
+    <test started-at="2025-07-23T13:15:04 IST" name="Login" finished-at="2025-07-23T13:16:01 IST" duration-ms="57570">
       <class name="testCases.TC_ContactUs">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_ContactUs@587e5365]" started-at="2025-07-23T13:06:42 IST" name="setUp" finished-at="2025-07-23T13:06:45 IST" duration-ms="2493" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_ContactUs@6572421]" started-at="2025-07-23T13:15:04 IST" name="setUp" finished-at="2025-07-23T13:15:07 IST" duration-ms="2524" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Tc_contactus(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ContactUs@587e5365]" started-at="2025-07-23T13:06:46 IST" name="Tc_contactus" data-provider="ContactUs" finished-at="2025-07-23T13:06:47 IST" duration-ms="1402" status="PASS">
+        <test-method signature="Tc_contactus(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ContactUs@6572421]" started-at="2025-07-23T13:15:07 IST" name="Tc_contactus" data-provider="ContactUs" finished-at="2025-07-23T13:15:09 IST" duration-ms="1384" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tc_contactus -->
-        <test-method signature="Tc_contactus(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ContactUs@587e5365]" started-at="2025-07-23T13:06:47 IST" name="Tc_contactus" data-provider="ContactUs" finished-at="2025-07-23T13:06:49 IST" duration-ms="1432" status="PASS">
+        <test-method signature="Tc_contactus(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ContactUs@6572421]" started-at="2025-07-23T13:15:09 IST" name="Tc_contactus" data-provider="ContactUs" finished-at="2025-07-23T13:15:10 IST" duration-ms="1522" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tc_contactus -->
-        <test-method signature="Tc_contactus(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ContactUs@587e5365]" started-at="2025-07-23T13:06:49 IST" name="Tc_contactus" data-provider="ContactUs" finished-at="2025-07-23T13:06:50 IST" duration-ms="1432" status="PASS">
+        <test-method signature="Tc_contactus(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ContactUs@6572421]" started-at="2025-07-23T13:15:10 IST" name="Tc_contactus" data-provider="ContactUs" finished-at="2025-07-23T13:15:12 IST" duration-ms="1650" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,7 +81,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tc_contactus -->
-        <test-method signature="Tc_contactus(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ContactUs@587e5365]" started-at="2025-07-23T13:06:50 IST" name="Tc_contactus" data-provider="ContactUs" finished-at="2025-07-23T13:06:51 IST" duration-ms="1369" status="PASS">
+        <test-method signature="Tc_contactus(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ContactUs@6572421]" started-at="2025-07-23T13:15:12 IST" name="Tc_contactus" data-provider="ContactUs" finished-at="2025-07-23T13:15:13 IST" duration-ms="1507" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,13 +102,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Tc_contactus -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_ContactUs@587e5365]" started-at="2025-07-23T13:06:51 IST" name="Teardown" finished-at="2025-07-23T13:06:51 IST" duration-ms="96" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_ContactUs@6572421]" started-at="2025-07-23T13:15:13 IST" name="Teardown" finished-at="2025-07-23T13:15:13 IST" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- testCases.TC_ContactUs -->
       <class name="testCases.TC_003_LoginDDT">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@305b7c14]" started-at="2025-07-23T13:06:51 IST" name="setUp" finished-at="2025-07-23T13:06:53 IST" duration-ms="1477" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@515aebb0]" started-at="2025-07-23T13:15:13 IST" name="setUp" finished-at="2025-07-23T13:15:15 IST" duration-ms="1397" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@305b7c14]" started-at="2025-07-23T13:06:53 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-23T13:07:05 IST" duration-ms="11598" status="FAIL">
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@515aebb0]" started-at="2025-07-23T13:15:15 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-23T13:15:27 IST" duration-ms="11741" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -144,10 +144,8 @@ at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
 at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
 at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
 at testCases.TC_003_LoginDDT.test_LoginDDT(TC_003_LoginDDT.java:65)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -156,7 +154,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -169,16 +167,20 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
 at org.testng.TestNG.runSuites(TestNG.java:1112)
 at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@305b7c14]" started-at="2025-07-23T13:07:05 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-23T13:07:17 IST" duration-ms="11626" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@515aebb0]" started-at="2025-07-23T13:15:27 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-23T13:15:38 IST" duration-ms="11532" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -199,7 +201,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@305b7c14]" started-at="2025-07-23T13:07:17 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-23T13:07:28 IST" duration-ms="11785" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@515aebb0]" started-at="2025-07-23T13:15:38 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-23T13:15:50 IST" duration-ms="11561" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -220,7 +222,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@305b7c14]" started-at="2025-07-23T13:07:28 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-23T13:07:40 IST" duration-ms="11619" status="PASS">
+        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@515aebb0]" started-at="2025-07-23T13:15:50 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-23T13:16:01 IST" duration-ms="11542" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -241,7 +243,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_LoginDDT -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_003_LoginDDT@305b7c14]" started-at="2025-07-23T13:07:40 IST" name="Teardown" finished-at="2025-07-23T13:07:40 IST" duration-ms="82" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_003_LoginDDT@515aebb0]" started-at="2025-07-23T13:16:01 IST" name="Teardown" finished-at="2025-07-23T13:16:01 IST" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
