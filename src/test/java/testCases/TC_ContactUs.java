@@ -1,14 +1,17 @@
 package testCases;
 import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
-import org.testng.Assert;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
 
 import pageObjects.ContactUs;
 import pageObjects.HomePage;
 import testBase.BaseClass;
 import utilities.XLUtility;
+
+import org.testng.AssertJUnit;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+
 
 import java.io.IOException;
 

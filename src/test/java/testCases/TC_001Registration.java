@@ -1,6 +1,11 @@
 package testCases;
 
 import org.testng.annotations.Test;
+
+import pageObjects.AccountRegistration;
+import pageObjects.HomePage;
+import testBase.BaseClass;
+
 import org.testng.AssertJUnit;
 import java.io.IOException;
 
@@ -8,13 +13,6 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import pageObjects.AccountRegistration;
-import pageObjects.HomePage;
-import pageObjects.LoginPage;
-import pageObjects.MyAccountPage;
-import testBase.BaseClass;
-import utilities.XLUtility;
 
 public class TC_001Registration extends BaseClass
 {

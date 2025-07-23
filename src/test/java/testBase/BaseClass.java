@@ -1,5 +1,6 @@
 package testBase;
 
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -29,7 +30,7 @@ public class BaseClass
    public   Logger logger; //For Logging
    public ResourceBundle rb;
 
-    @BeforeMethod
+   // @BeforeMethod
 	@BeforeClass
     @Parameters("browser")
     public void setUp(String brows)
@@ -71,7 +72,7 @@ public class BaseClass
 
     }
 
-    @AfterMethod
+    @AfterClass
     public void Teardown()
     {
        driver.quit();

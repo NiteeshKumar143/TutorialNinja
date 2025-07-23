@@ -1,10 +1,12 @@
 package testCases;
 import org.testng.annotations.Test;
+
+import pageObjects.HomePage;
+import pageObjects.LoginPage;
+
 import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pageObjects.HomePage;
-import pageObjects.LoginPage;
 import testBase.BaseClass;
 
 public class TC002_Login extends BaseClass
