@@ -10,18 +10,14 @@ import org.testng.AssertJUnit;
 
 import org.testng.annotations.DataProvider;
 
-
-
-
 import java.io.IOException;
-
 import static org.apache.poi.sl.draw.geom.GuideIf.Op.val;
 
 public class TC_ContactUs extends BaseClass 
 {
 	
 	@Test(dataProvider="ContactUs")
-    public void Tc_contactus(String name,String email,String query)
+    public void Tc_contactus(String name,String email,String query) throws IOException
     {
         logger.info(" Starting Tc_contactus ");
 
@@ -62,14 +58,16 @@ public class TC_ContactUs extends BaseClass
                 else
                 {
                     logger.error("Unable to sent contact query ");
+                
                     AssertJUnit.assertTrue(false);
+                    
                 }
-            
 
-
-        }catch(Exception e)
+        }
+        catch(Exception e)
         {
             logger.fatal("TC_ContactUs Failed ");
+            capturescreen(driver, "Tc_contactus");
             AssertJUnit.fail();
         }
 
@@ -85,24 +83,23 @@ public class TC_ContactUs extends BaseClass
 
         XLUtility xlutil=new XLUtility(path);
 
-        int totalrows = xlutil.getRowCount("Sheet2");
-        int totalcols = xlutil.getCellCount("Sheet2", 1); // Assuming row 1 has data
-        if (totalcols > 3) totalcols = 3;
+        int totalrows = xlutil.getRowCount("query");
+        int totalcols = xlutil.getCellCount("query", 1); // Assuming row 1 has data
         System.out.println("Total rows: " + (totalrows));
         System.out.println("Total cols: " + totalcols);
-        String logindata[][] = new String[totalrows][totalcols]; // skip header
+        String contactdata[][] = new String[totalrows][totalcols]; // skip header
 
         for (int i = 1; i<= totalrows; i++)
         { // start from 1
             for (int j = 0; j < totalcols; j++)
             {
-                System.out.println("Reading Sheet2[" + i + "][" + j + "] = " + val);
-                String val = xlutil.getCellData("Sheet2", i, j);
-                logindata[i - 1][j] = xlutil.getCellData("Sheet2", i, j).trim(); // offset by -1
+            	 String val = xlutil.getCellData("query", i, j);
+                System.out.println("Reading query[" + i + "][" + j + "] = " + val);
+                 contactdata[i - 1][j] = val.trim();// offset by -1
 
             }
         }
-         return logindata;
+         return contactdata;
 
     }
 }

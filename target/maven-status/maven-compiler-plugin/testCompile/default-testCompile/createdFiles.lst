@@ -6,7 +6,9 @@ utilities/ExtentReportManager.class
 testBase/BaseClass.class
 pageObjects/HomePage.class
 pageObjects/ContactUs.class
+testCases/AddressBookTest.class
 testCases/TC_ContactUs.class
+pageObjects/AddresBook.class
 testCases/TC_003_LoginDDT.class
 utilities/XLUtility.class
 testCases/TC002_Login.class

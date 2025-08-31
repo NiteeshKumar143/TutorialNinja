@@ -40,6 +40,9 @@ public class AccountRegistration
     @FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
     WebElement msgConfirmation;
 
+    @FindBy(xpath="//ul[@class='dropdown-menu dropdown-menu-right']//li[5]")
+    WebElement logout;
+    
     public void setFirstName(String fname)
     {
         txtFirstname.sendKeys(fname);
@@ -92,6 +95,13 @@ public class AccountRegistration
         {
             return(e.getMessage());
         }
+    }
+    
+    
+    public void logoutb()
+    {
+       logout.click();
+
     }
 
 }

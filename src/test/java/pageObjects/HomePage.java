@@ -38,7 +38,7 @@ public class HomePage
 
     public void clickRegister()
     {
-        linkRegister.click();;
+        linkRegister.click();
 
     }
 

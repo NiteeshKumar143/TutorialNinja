@@ -7,13 +7,14 @@
   <test thread-count="5" name="Login(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_003_LoginDDT">
+      <class name="testCases.AddressBookTest">
         <methods>
-          <include name="setUp"/>
+          <include name="enterAddress" invocation-numbers="0"/>
+          <include name="logintoApp"/>
           <include name="Teardown"/>
-          <include name="test_LoginDDT" invocation-numbers="0"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- testCases.TC_003_LoginDDT -->
+      </class> <!-- testCases.AddressBookTest -->
     </classes>
   </test> <!-- Login(failed) -->
 </suite> <!-- Failed suite [Tutorial Ninja] -->

@@ -27,6 +27,8 @@ public class LoginPage
     @FindBy(xpath="//h2[text()='My Account']")
     WebElement msgHeading;
 
+    @FindBy(xpath="//ul[@class='dropdown-menu dropdown-menu-right']//li[5]")
+    WebElement logout;
 
 
     public void setEmail(String email)
@@ -53,6 +55,12 @@ public class LoginPage
         {
             return(false);
         }
+    }
+    
+    public void logoutb()
+    {
+       logout.click();
+
     }
 
 }

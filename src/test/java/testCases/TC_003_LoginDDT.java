@@ -14,7 +14,7 @@ import org.testng.annotations.DataProvider;
 
 import java.io.IOException;
 
-import static org.apache.poi.sl.draw.geom.GuideIf.Op.val;
+//import static org.apache.poi.sl.draw.geom.GuideIf.Op.val;
 
 public class TC_003_LoginDDT extends BaseClass
 {
@@ -55,8 +55,8 @@ public class TC_003_LoginDDT extends BaseClass
                 {
                     logger.info("Login Success ");
 
-                    MyAccountPage myaccpage=new MyAccountPage(driver);
-                    myaccpage.ClickLogout();
+                    hp.clickMyAccount();
+                    lp.logoutb();
                     AssertJUnit.assertTrue(true);
                 }
                 else
@@ -70,8 +70,8 @@ public class TC_003_LoginDDT extends BaseClass
             {
                 if(targetpage==true)
                 {
-                    MyAccountPage myaccpage=new MyAccountPage(driver);
-                    myaccpage.ClickLogout();
+                    hp.clickMyAccount();
+                	lp.logoutb();
                     AssertJUnit.assertTrue(false);
                 }
                 else
@@ -96,28 +96,27 @@ public class TC_003_LoginDDT extends BaseClass
    @DataProvider(name="LoginData")
     public String [][] getData() throws IOException
     {
-        String path = System.getProperty("user.dir") + "/testData/Opencart_LoginData.xlsx";
+	   String path = System.getProperty("user.dir") + "/testData/Opencart_LoginData.xlsx";
 
-        XLUtility xlutil=new XLUtility(path);
+       XLUtility xlutil=new XLUtility(path);
 
-        int totalrows = xlutil.getRowCount("Sheet1");
-        int totalcols = xlutil.getCellCount("Sheet1", 1); // Assuming row 1 has data
-        if (totalcols > 3) totalcols = 3;
-        System.out.println("Total rows: " + (totalrows));
-        System.out.println("Total cols: " + totalcols);
-        String logindata[][] = new String[totalrows][totalcols]; // skip header
+       int totalrows = xlutil.getRowCount("login");
+       int totalcols = xlutil.getCellCount("login", 1); // Assuming row 1 has data
+       System.out.println("Total rows: " + (totalrows));
+       System.out.println("Total cols: " + totalcols);
+       String contactdata[][] = new String[totalrows][totalcols]; // skip header
 
-        for (int i = 1; i<= totalrows; i++)
-        { // start from 1
-            for (int j = 0; j < totalcols; j++)
-            {
-                System.out.println("Reading Sheet1[" + i + "][" + j + "] = " + val);
-                String val = xlutil.getCellData("Sheet1", i, j);
-                logindata[i - 1][j] = xlutil.getCellData("Sheet1", i, j).trim(); // offset by -1
+       for (int i = 1; i<= totalrows; i++)
+       { // start from 1
+           for (int j = 0; j < totalcols; j++)
+           {
+           	    String val = xlutil.getCellData("login", i, j);
+                System.out.println("Reading login[" + i + "][" + j + "] = " + val);
+                contactdata[i - 1][j] = val.trim();// offset by -1
 
-            }
-        }
-         return logindata;
+           }
+       }
+        return contactdata;
 
-    }
+   }
 }

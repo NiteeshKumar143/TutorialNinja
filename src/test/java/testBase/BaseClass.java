@@ -3,6 +3,7 @@ package testBase;
 
 import org.testng.annotations.AfterClass;
 
+
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
@@ -29,7 +30,7 @@ public class BaseClass
    public   Logger logger; //For Logging
    public ResourceBundle rb;
 
-   // @BeforeMethod
+  // @BeforeMethod
 	@BeforeClass
     @Parameters("browser")
     public void setUp(String brows)

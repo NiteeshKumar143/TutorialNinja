@@ -34,10 +34,7 @@ public class ContactUs {
 	
 	@FindBy(xpath="//h1[contains(text(),'Contact Us')]")
     WebElement Heading;
-	
-	
-	
-	
+
 	 public void setName(String name)
 	    {
 	        Name.sendKeys(name);

@@ -36,6 +36,7 @@ public void testLogin()
         if (targetpage) {
             logger.info("Login success");
             AssertJUnit.assertTrue(true);
+           
         } else {
 
             logger.info("Login failed");

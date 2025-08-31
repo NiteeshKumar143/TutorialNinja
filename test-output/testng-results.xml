@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-23T13:06:42 IST" name="Tutorial Ninja" finished-at="2025-07-23T13:07:40 IST" duration-ms="58137">
+  <suite started-at="2025-08-31T11:54:24 IST" name="Tutorial Ninja" finished-at="2025-08-31T11:54:44 IST" duration-ms="20273">
     <groups>
     </groups>
-    <test started-at="2025-07-23T13:06:42 IST" name="Login" finished-at="2025-07-23T13:07:40 IST" duration-ms="58137">
-      <class name="testCases.TC_ContactUs">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_ContactUs@587e5365]" started-at="2025-07-23T13:06:42 IST" name="setUp" finished-at="2025-07-23T13:06:45 IST" duration-ms="2493" status="PASS">
+    <test started-at="2025-08-31T11:54:24 IST" name="Login" finished-at="2025-08-31T11:54:44 IST" duration-ms="20273">
+      <class name="testCases.AddressBookTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.AddressBookTest@6a6cb05c]" started-at="2025-08-31T11:54:24 IST" name="setUp" finished-at="2025-08-31T11:54:27 IST" duration-ms="2977" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,147 +18,113 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Tc_contactus(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ContactUs@587e5365]" started-at="2025-07-23T13:06:46 IST" name="Tc_contactus" data-provider="ContactUs" finished-at="2025-07-23T13:06:47 IST" duration-ms="1402" status="PASS">
+        <test-method is-config="true" signature="logintoApp()[pri:0, instance:testCases.AddressBookTest@6a6cb05c]" started-at="2025-08-31T11:54:28 IST" name="logintoApp" finished-at="2025-08-31T11:54:30 IST" duration-ms="2101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method signature="enterAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.AddressBookTest@6a6cb05c]" started-at="2025-08-31T11:54:30 IST" name="enterAddress" data-provider="AddressData" finished-at="2025-08-31T11:54:33 IST" duration-ms="3312" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Niteesh]]>
+                <![CDATA[Nikk]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[n.k.gangwar581993@gmail.com]]>
+                <![CDATA[Patel]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[niteesh is entering some data in query box user 1]]>
+                <![CDATA[Appinventiv]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bareilly]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[delhi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[bareilly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[242503]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.IllegalMonitorStateException">
+            <message>
+              <![CDATA[current thread is not owner]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalMonitorStateException: current thread is not owner
+at java.base/java.lang.Object.wait0(Native Method)
+at java.base/java.lang.Object.wait(Object.java:366)
+at testCases.AddressBookTest.enterAddress(AddressBookTest.java:88)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalMonitorStateException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc_contactus -->
-        <test-method signature="Tc_contactus(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ContactUs@587e5365]" started-at="2025-07-23T13:06:47 IST" name="Tc_contactus" data-provider="ContactUs" finished-at="2025-07-23T13:06:49 IST" duration-ms="1432" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[pawan]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pavanoltraining@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[pawan is entering some data in query box user 2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tc_contactus -->
-        <test-method signature="Tc_contactus(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ContactUs@587e5365]" started-at="2025-07-23T13:06:49 IST" name="Tc_contactus" data-provider="ContactUs" finished-at="2025-07-23T13:06:50 IST" duration-ms="1432" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[rohit]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[rohit11@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[rohit is entering some data in query box user 3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tc_contactus -->
-        <test-method signature="Tc_contactus(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ContactUs@587e5365]" started-at="2025-07-23T13:06:50 IST" name="Tc_contactus" data-provider="ContactUs" finished-at="2025-07-23T13:06:51 IST" duration-ms="1369" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kamal]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[kamal12@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[kamal is entering some data in query box user 4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tc_contactus -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_ContactUs@587e5365]" started-at="2025-07-23T13:06:51 IST" name="Teardown" finished-at="2025-07-23T13:06:51 IST" duration-ms="96" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Teardown -->
-      </class> <!-- testCases.TC_ContactUs -->
-      <class name="testCases.TC_003_LoginDDT">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@305b7c14]" started-at="2025-07-23T13:06:51 IST" name="setUp" finished-at="2025-07-23T13:06:53 IST" duration-ms="1477" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@305b7c14]" started-at="2025-07-23T13:06:53 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-23T13:07:05 IST" duration-ms="11598" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nk.gangwar581993@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Nikk@12345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- enterAddress -->
+        <test-method is-config="true" signature="logintoApp()[pri:0, instance:testCases.AddressBookTest@6a6cb05c]" started-at="2025-08-31T11:54:33 IST" name="logintoApp" finished-at="2025-08-31T11:54:44 IST" duration-ms="10585" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
 at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
-at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
-at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
-at testCases.TC_003_LoginDDT.test_LoginDDT(TC_003_LoginDDT.java:65)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.AssertJUnit.fail(AssertJUnit.java:70)
+at testCases.AddressBookTest.logintoApp(AddressBookTest.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
@@ -177,75 +143,92 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@305b7c14]" started-at="2025-07-23T13:07:05 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-23T13:07:17 IST" duration-ms="11626" status="PASS">
+        </test-method> <!-- logintoApp -->
+        <test-method signature="enterAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.AddressBookTest@6a6cb05c]" started-at="2025-08-31T11:54:44 IST" name="enterAddress" data-provider="AddressData" finished-at="2025-08-31T11:54:44 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
-                <![CDATA[pavanoltraining@gmail.com]]>
+                <![CDATA[Kamal]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[test]]>
+                <![CDATA[Patel]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Invalid]]>
+                <![CDATA[UPPP]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Noida]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Noida]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[bareilly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[243507]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.fail(AssertJUnit.java:70)
+at testCases.AddressBookTest.logintoApp(AddressBookTest.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@305b7c14]" started-at="2025-07-23T13:07:17 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-23T13:07:28 IST" duration-ms="11785" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[pavan@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_LoginDDT -->
-        <test-method signature="test_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@305b7c14]" started-at="2025-07-23T13:07:28 IST" name="test_LoginDDT" data-provider="LoginData" finished-at="2025-07-23T13:07:40 IST" duration-ms="11619" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[pavan@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_LoginDDT -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_003_LoginDDT@305b7c14]" started-at="2025-07-23T13:07:40 IST" name="Teardown" finished-at="2025-07-23T13:07:40 IST" duration-ms="82" status="PASS">
+        </test-method> <!-- enterAddress -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.AddressBookTest@6a6cb05c]" started-at="2025-08-31T11:54:44 IST" name="Teardown" finished-at="2025-08-31T11:54:44 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
-      </class> <!-- testCases.TC_003_LoginDDT -->
+      </class> <!-- testCases.AddressBookTest -->
     </test> <!-- Login -->
   </suite> <!-- Tutorial Ninja -->
 </testng-results>
